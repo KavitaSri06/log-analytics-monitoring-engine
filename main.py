@@ -9,7 +9,7 @@ def main():
     # For example, you can submit tasks to the cluster or use Dask DataFrames
     
     # Don't forget to close the client when you're done
-    time.sleep(60) 
+    input("Press Enter to close the Dask client...")
     client.close()
 if __name__ == "__main__":
     main()
