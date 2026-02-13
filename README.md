@@ -1,3 +1,3 @@
 # log-analytics-monitoring-engine
 
-pip install dask
+pip install dask[complete]
