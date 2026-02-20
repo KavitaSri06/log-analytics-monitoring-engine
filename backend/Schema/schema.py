@@ -4,7 +4,7 @@
 #2. it helps in data validation and data cleaning .
 #3. faster processing , easier analytics (flitering , mapping,grouping,anomaly detection becomes simple and faster)    
 log_schema = {
-"timestamp": "datetime",
+"timestamp": "datetime64[ns]",
 "level": "string",
 "service": "string",
 "message": "string",
